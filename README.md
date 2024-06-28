@@ -1,4 +1,4 @@
-# Proyecto de Cristian Samuel Mantilla
+# Profile [Currículum]
 
 Este repositorio contiene los archivos del sitio web personal de Cristian Samuel Mantilla, un Desarrollador Web Full Stack en formación. A continuación se ofrece una visión general del contenido y propósito del proyecto.
 
