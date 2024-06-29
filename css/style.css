@@ -95,3 +95,10 @@ body {
 .presentacion_texto::after {
     content: "👨🏻‍🚀"
 }
+
+/* Estilo CSS de sobremi.html */
+
+.presentacion_texto_1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
