@@ -18,15 +18,14 @@ body {
     display: flex;
     gap: 80px;
 }
-.header_menu_1 {
+.header_menu_link {
     font-family: "Krona One", sans-serif;
     font-size: 24px;
     color: #22D4FD;
     text-decoration: none;
-
 }
 
-.titulo-destacado {
+.titulo_destacado {
     color: #22D4FD;  
 }
 
@@ -59,17 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.enlacessociales {
-    justify-content: space-between;
-}
-
-.presentacion_texto_subtitulo {
-    font-family: "Krona One", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.enlacessociales {
+.enlace_social {
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -84,6 +73,15 @@ body {
     justify-content: center;
     gap: 10px;
 }
+.presentacion_texto_subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.foto_perfil {
+    max-width: 100%;
+    height: auto;
+}
 .footer {
     background-color: #22D4FD;
     padding: 24px;
@@ -93,12 +91,85 @@ body {
     font-size: 20px;
 }
 .presentacion_texto::after {
-    content: "👨🏻‍🚀"
+    content: "👨🏻‍🚀";
 }
 
 /* Estilo CSS de sobremi.html */
-
 .presentacion_texto_1 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
+}
+.presentacion_texto_2 {    
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+/* Media Queries para dispositivos de tamaño medio (tabletas) */
+@media (max-width: 768px) {
+    .header {
+        padding: 2% 0% 0% 5%;
+    }
+    .header_menu {
+        gap: 40px;
+    }
+    .header_menu_link {
+        font-size: 20px;
+    }
+    .bio {
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 5%;
+    }
+    .presentacion {
+        width: 100%;
+    }
+    .presentacion_titulo {
+        font-size: 30px;
+    }
+    .presentacion_texto {
+        font-size: 20px;
+    }
+    .enlaces {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .enlace_social {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 480px) {
+    .header {
+        padding: 2% 0;
+    }
+    .header_menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header_menu_link {
+        font-size: 18px;
+    }
+    .bio {
+        padding: 3% 3%;
+    }
+    .presentacion {
+        width: 100%;
+        text-align: center;
+    }
+    .presentacion_titulo {
+        font-size: 24px;
+    }
+    .presentacion_texto {
+        font-size: 18px;
+    }
+    .enlace_social {
+        width: auto;
+        font-size: 18px;
+    }
+    .footer {
+        font-size: 18px;
+    }
 }
