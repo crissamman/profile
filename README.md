@@ -36,30 +36,6 @@ Esta página proporciona una descripción más detallada sobre Cristian, incluye
 - Su dedicación al aprendizaje continuo y la aplicación de conceptos en proyectos reales.
 - Su proyecto en desarrollo, **Storysfeed**, una plataforma de suscripción para compartir contenido sobre ciencia, tecnología y psicología.
 
-## Instrucciones para Ejecutar el Proyecto
-
-1. Clona el repositorio en tu máquina local:
-    ```sh
-    git clone https://github.com/crissamman/tu-repositorio.git
-    ```
-
-2. Navega al directorio del proyecto:
-    ```sh
-    cd tu-repositorio
-    ```
-
-3. Abre `index.html` en tu navegador para ver la página de inicio.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas contribuir, por favor sigue los siguientes pasos:
-
-1. Haz un fork del proyecto.
-2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
-3. Realiza los cambios necesarios y haz commit (`git commit -m 'Añadir nueva característica'`).
-4. Empuja los cambios a tu rama (`git push origin feature/nueva-caracteristica`).
-5. Abre un Pull Request.
-
 ## Contacto
 
 Para cualquier consulta, puedes contactarme a través de [LinkedIn](https://www.linkedin.com/in/crissamman/) o [GitHub](https://github.com/crissamman).
